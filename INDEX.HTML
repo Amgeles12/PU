@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoRent</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/promotions.css">
+    <link rel="stylesheet" href="styles/fleet.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo AutoRent">
+        </div>
+        <nav>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#">C</a></li>
+                <li><a href="#">Flota</a></li>
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Promociones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+
+                <div class="buttons">
+                    <button type="button">Registrarse</button>
+                    <button type="submit">Iniciar Sesión</button>
+                </div>
+                <a href="#" class="forgot">Recuperar Contraseña</a>
+            </form>
+        </section>
+
+        <section class="promociones">
+            <h2>Promociones</h2>
+            <p>Aquí puedes agregar contenido promocional</p>
+        </section>
+
+        <section class="autos-carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="images/car1.jpg" alt="Carro 1">
+                    <img src="images/car2.jpg" alt="Carro 2">
+                    <img src="images/car3.jpg" alt="Carro 3">
+                    <img src="images/car4.jpg" alt="Carro 4">
+                </div>
+            </div>
+            <button class="prev">←</button>
+            <button class="next">→</button>
+        </section>
+
+        <section class="flota">
+            <h2>Nuestra Flota</h2>
+            <div class="flota-container">
+                <div class="flota-item">
+                    <img src="images/fleet1.jpg" alt="Auto 1">
+                    <h3>Auto 1</h3>
+                    <p>Descripción del auto 1.</p>
+                </div>
+                <div class="flota-item">
+                    <img src="images/fleet2.jpg" alt="Auto 2">
+                    <h3>Auto  2</h3>
+                    <p>Descripción del auto 2.</p>
+                </div>
+                <div class="flota-item">
+                    <img src="images/fleet3.jpg" alt="Auto 3">
+                    <h3>Auto 3</h3>
+                    <p>Descripción del auto 3.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/fleet.js"></script>
+    <script src="scripts/promotions.js"></script> 
+</body>
+</html>

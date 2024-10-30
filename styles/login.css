@@ -1,0 +1,39 @@
+.login h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #b30000;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #b30000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 10px;
+    color: #b30000;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.promociones {
+    background-color: #fff5e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.promociones h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #b30000;
+}
+
+.promociones p {
+    font-size: 16px;
+    color: #333;
+}
+
+.promociones .promo-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.promo-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}

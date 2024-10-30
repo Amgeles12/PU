@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/calendar.css"> <!-- Agregar el CSS del calendario -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo AutoRent">
+        </div>
+        <nav>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#">Calendario</a></li>
+                <li><a href="#">Flota</a></li>
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Promociones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="calendar">
+            <h2 id="month-year"></h2>
+            <div class="calendar-grid">
+                <div class="day-name">Dom</div>
+                <div class="day-name">Lun</div>
+                <div class="day-name">Mar</div>
+                <div class="day-name">Mié</div>
+                <div class="day-name">Jue</div>
+                <div class="day-name">Vie</div>
+                <div class="day-name">Sáb</div>
+                <div id="calendar-days" class="calendar-days"></div>
+            </div>
+            <div class="buttons">
+                <button id="prev">← Mes Anterior</button>
+                <button id="next">Mes Siguiente →</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/calendar.js"></script> <!-- Agregar el script del calendario -->
+</body>
+</html>
